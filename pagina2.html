@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Segunda página</title>
+  </head>
+<style>
+  body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+  }
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  color: #ccc;
+}
+
+img {
+  width: 250px;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: block;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+</style>
+  <body>
+<button onclick="voltar()">Voltar</button>
+    <h1>Você chegou na segunda página 😎</h1>
+    <p>Esse site ta uma aura do começo ao fim</p>
+<script>
+  function voltar() {
+    window.location.href = "site.html";
+  }
+</script>
+  </body>
+</html>

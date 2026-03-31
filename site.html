@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site do MARCOS</title>
+
+    <style>
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+  <h1>Oi, esse é meu primeiro site</h1>
+  <p id="texto">CLICA NO BOTÃO AE 😎</p>
+
+  <img src="https://picsum.photos/200">
+
+<button onclick="irPagina()">Ir para outra página</button>
+
+<script>
+
+  function mudarTexto() {
+    document.getElementById("texto").innerText = "QUEM TA É NOIS 😎🔥";
+  }
+</script>
+<script>
+  function irPagina() {
+    window.location.href = "pagina2.html";
+  }
+</script>
+</body>
+</html>
